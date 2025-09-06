@@ -1,0 +1,119 @@
+.home-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: #333;
+  margin: 0 auto; /* keep it centered visually */
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.logout-btn,
+.download-btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+  color: #fff;
+}
+.logout-btn { background: #e74c3c; }
+.logout-btn:hover { background: #c0392b; }
+
+.download-btn { background: #2d98da; }
+.download-btn:hover { background: #2478ad; }
+
+.expense-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.expense-form input,
+.expense-form select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  flex: 1;
+}
+
+.add-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.add-btn:hover { background: #1e8449; }
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.expense-table th,
+.expense-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.expense-table th {
+  background: #f4f4f4;
+}
+
+.edit-btn,
+.delete-btn,
+.save-btn,
+.cancel-btn {
+  margin: 0 3px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #fff;
+}
+
+.edit-btn { background: #3498db; }
+.edit-btn:hover { background: #217dbb; }
+
+.delete-btn { background: #e74c3c; }
+.delete-btn:hover { background: #c0392b; }
+
+.save-btn { background: #2ecc71; }
+.save-btn:hover { background: #239b56; }
+
+.cancel-btn { background: #95a5a6; }
+.cancel-btn:hover { background: #7f8c8d; }
+
+.empty-row {
+  color: #777;
+  font-style: italic;
+}
+
+.total {
+  margin-top: 15px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+}
